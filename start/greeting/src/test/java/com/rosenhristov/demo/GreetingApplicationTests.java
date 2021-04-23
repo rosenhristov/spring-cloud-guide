@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, properties = {"spring.cloud.config.enabled:false"})
-@TestPropertySource(locations = {"classpath:test.properties"})
+@TestPropertySource(locations = {"classpath:test.yml"})
 public class GreetingApplicationTests {
 
 	@Autowired

@@ -11,7 +11,7 @@ Contract.make {
     }
     response {
         status 200
-        body("Ryan")
+        body("Rosen")
         headers {
             contentType(textPlain())
         }
